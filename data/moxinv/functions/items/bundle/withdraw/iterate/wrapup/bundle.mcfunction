@@ -1,0 +1,2 @@
+data modify storage moxinv:items/bundle bundle append from storage moxinv:items/bundle slot
+execute if score $iteration5 moxinv.items.bundle = $selected moxinv.items.bundle run data modify storage moxinv:items/bundle bundle append from storage moxinv:items/bundle slots[]

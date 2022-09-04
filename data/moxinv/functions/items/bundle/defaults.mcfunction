@@ -1,0 +1,3 @@
+execute if score $bundle_size moxinv.items.bundle matches ..0 run scoreboard players operation $bundle_size moxinv.items.bundle = $bundle_size moxinv.config
+execute if score $bundle_stack moxinv.items.bundle matches ..0 run scoreboard players operation $bundle_stack moxinv.items.bundle = $bundle_stack moxinv.config
+execute if score $withdraw moxinv.items.bundle matches ..0 run scoreboard players operation $withdraw moxinv.items.bundle = $withdraw moxinv.config

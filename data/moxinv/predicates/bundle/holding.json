@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "moxinv:bundle/mainhand/holding"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "moxinv:bundle/offhand/holding"
+    }
+  ]
+}

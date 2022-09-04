@@ -1,0 +1,3 @@
+execute unless score @s moxinv.items.roller.slot matches 0.. run scoreboard players set @s moxinv.items.roller.slot 0
+execute as @s[predicate=moxinv:roller/offhand,scores={moxinv.player.sneak=1..}] unless score @s moxinv.items.roller.slot = @s moxinv.player.slot run function moxinv:items/roller/roll
+execute unless score @s moxinv.player.sneak matches 1.. run scoreboard players operation @s moxinv.items.roller.slot = @s moxinv.player.slot

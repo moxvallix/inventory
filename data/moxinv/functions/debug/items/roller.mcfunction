@@ -1,0 +1,1 @@
+give @s debug_stick{custom_id:"moxinv:roller"} 1

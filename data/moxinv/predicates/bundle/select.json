@@ -1,0 +1,27 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "moxinv:bundle/offhand/holding"
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "moxinv.items.bundle.slot": {
+          "min": {
+            "type": "minecraft:score",
+            "target": "this",
+            "score": "moxinv.player.slot"
+          },
+          "max": {
+            "type": "minecraft:score",
+            "target": "this",
+            "score": "moxinv.player.slot"
+          }
+        }
+      }
+    }
+  }
+]
